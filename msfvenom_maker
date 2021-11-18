@@ -30,9 +30,9 @@ function title() {
 	#    # #    # #    # ###### #    #                       
 	${NC}""";
 
-	printf "${Purple}\nWritten by:${NC} ${Blue}Reyulay${NC}"
-	printf "${Purple}\nGithub:${NC} https://github.com/Reyulay"
-	printf "${Purple}\nTwitter:${NC} https://twitter.com/Reyulay"
+	printf "${Purple}\nWritten by:${NC} ${Blue}Yunolay${NC}"
+	printf "${Purple}\nGithub:${NC} https://github.com/Yunolay"
+	printf "${Purple}\nTwitter:${NC} https://twitter.com/Yunolay"
 	printf "${Purple}\nHTB Profile:${NC} https://www.hackthebox.eu/profile/97384\n\n"
 }
 
