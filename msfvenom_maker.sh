@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: meepmaster
-# Date: 19-04-2022
+# Date: 02-05-2022
 # Description: MsfVenom Payload Creator
 
 
@@ -37,10 +37,8 @@ function title() {
 	###### #    # ###### #    #    #     ####  #    #                                     
 	${NC}""";
 
-	echo -e "${Purple}\nWritten by:${NC} ${Blue}Yunolay${NC}"
-	echo -e "${Purple}\nGithub:${NC} https://github.com/Yunolay"
-	echo -e "${Purple}\nTwitter:${NC} https://twitter.com/Yunolay"
-	echo -e "${Purple}\nHTB Profile:${NC} https://www.hackthebox.eu/profile/97384\n\n"
+	echo -e "${Purple}\nWritten by:${NC} ${Blue}Meepmaster${NC}"
+	echo -e "${Purple}\nGithub:${NC} https://github.com/meepmaster360\n"
 }
 
 function version() {
