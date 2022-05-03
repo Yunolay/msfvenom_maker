@@ -42,7 +42,7 @@ function title() {
 }
 
 function version() {
-    echo -e "${Purple}\nVersion:${NC} $(basename ${0}) version 0.0.1\n"
+    echo -e "${Purple}\nVersion:${NC} $(basename ${0}) version 0.0.2\n"
 }
 
 function help() {

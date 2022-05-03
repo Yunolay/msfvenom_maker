@@ -67,7 +67,7 @@ When you create a stager payload, it automatically listens with multi / handler.
 Please select a payload.
 [-] Binaries Payloads
 
-[*] 1 : Linux Meterpreter Reverse Shel
+[*] 1 : Linux Meterpreter Reverse Shell
 [*] 2 : Linux Meterpreter Reverse Shell x64
 [*] 3 : Linux Bind Meterpreter Shell
 [*] 4 : Linux Bind Shell
