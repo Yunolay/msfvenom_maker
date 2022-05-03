@@ -1,5 +1,6 @@
 #!/bin/bash
-# Author: meepmaster
+# Author: Yunolay
+# Adapted: Meepmaster
 # Date: 02-05-2022
 # Description: MsfVenom Payload Creator
 
