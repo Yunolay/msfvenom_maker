@@ -1,13 +1,13 @@
-# msfvenom_maker
+# msfvenom_creator
 
 
-msfvenom_maker automatically creates a payload and listens with multi/handler. 
+msfvenom_creator automatically creates a payload and listens with multi/handler. 
 
 
 ## Installation
 
 ```sh
-$ chmod +x msfvenom_maker
+$ chmod +x msfvenom_creator
 ```
 
 ## Usage
@@ -15,12 +15,12 @@ Specify LHOST and LPORT as arguments.
 
 
 ```sh
-$ ./msfvenom_maker -h
+$ ./msfvenom_creator -h
 Usage:
-    msfvenom_maker [LHOST] [LPORT]
+    msfvenom_creator [LHOST] [LPORT]
 
 Options:
-    --version, -v     print msfvenom_maker version
+    --version, -v     print msfvenom_creator version
     --help, -h        print this
     --ip              print ip v4 address
 ```
@@ -50,7 +50,7 @@ Show your ip v4 address.
 
 
 ```sh
-$ ./msfvenom_maker --ip
+$ ./msfvenom_creator --ip
 
 [+] Your IP address
 127.0.0.1
@@ -67,7 +67,7 @@ When you create a stager payload, it automatically listens with multi / handler.
 Please select a payload.
 [-] Binaries Payloads
 
-[*] 1 : Linux Meterpreter Reverse Shel
+[*] 1 : Linux Meterpreter Reverse Shell
 [*] 2 : Linux Meterpreter Reverse Shell x64
 [*] 3 : Linux Bind Meterpreter Shell
 [*] 4 : Linux Bind Shell
@@ -92,19 +92,27 @@ Please select a payload.
 [*] 17 : Perl Unix Reverse shell
 ```
 
+## Screenshots
+
+![Screenshot from 2022-05-03 13-07-25](https://user-images.githubusercontent.com/67827146/166449877-9bc42cc1-509e-49e5-b908-95cb5fb771d1.png) 
+![Screenshot from 2022-05-03 13-10-33](https://user-images.githubusercontent.com/67827146/166450332-3cdd9e6a-73da-410f-82e7-b72fd9569f22.png)
+
+
 ## Demo
-![](https://user-images.githubusercontent.com/16620233/65217440-035d5d00-daef-11e9-9618-2be2141df7fc.gif)
+
+https://user-images.githubusercontent.com/67827146/166445412-9acdc858-c6a2-49a7-bc30-4837e750b352.mp4
+
 
 ## Command
 ```sh
-# cp msfvenom_maker directory in path
+# cp msfvenom_creator directory in path
 # ex.
 $ echo $PATH
 /root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-$ cp msfvenom_maker /root/bin
-$ chmod +x /root/bin/msfvenom_maker
+$ cp msfvenom_creator /root/bin
+$ chmod +x /root/bin/msfvenom_creator
 
-$ msfvenom_maker
+$ msfvenom_creator
 ```
 
 ## Reference
