@@ -36,8 +36,9 @@ function title() {
 	#      #   #  #      #    #    #    #    # #   #
 	###### #    # ###### #    #    #     ####  #    #                                     
 	${NC}""";
-
-	echo -e "${Purple}\nWritten by:${NC} ${Blue}Meepmaster${NC}"
+	
+	echo -e "${Purple}\nWritten by:${NC} ${Blue}Yunolay${NC}"
+	echo -e "${Purple}\nAdapted by:${NC} ${Blue}Meepmaster${NC}"
 	echo -e "${Purple}\nGithub:${NC} https://github.com/meepmaster360\n"
 }
 
