@@ -1,13 +1,13 @@
-# msfvenom_maker
+# msfvenom_creator
 
 
-msfvenom_maker automatically creates a payload and listens with multi/handler. 
+msfvenom_creator automatically creates a payload and listens with multi/handler. 
 
 
 ## Installation
 
 ```sh
-$ chmod +x msfvenom_maker
+$ chmod +x msfvenom_creator
 ```
 
 ## Usage
@@ -15,12 +15,12 @@ Specify LHOST and LPORT as arguments.
 
 
 ```sh
-$ ./msfvenom_maker -h
+$ ./msfvenom_creator -h
 Usage:
-    msfvenom_maker [LHOST] [LPORT]
+    msfvenom_creator [LHOST] [LPORT]
 
 Options:
-    --version, -v     print msfvenom_maker version
+    --version, -v     print msfvenom_creator version
     --help, -h        print this
     --ip              print ip v4 address
 ```
@@ -50,7 +50,7 @@ Show your ip v4 address.
 
 
 ```sh
-$ ./msfvenom_maker --ip
+$ ./msfvenom_creator --ip
 
 [+] Your IP address
 127.0.0.1
@@ -97,14 +97,14 @@ Please select a payload.
 
 ## Command
 ```sh
-# cp msfvenom_maker directory in path
+# cp msfvenom_creator directory in path
 # ex.
 $ echo $PATH
 /root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-$ cp msfvenom_maker /root/bin
-$ chmod +x /root/bin/msfvenom_maker
+$ cp msfvenom_creator /root/bin
+$ chmod +x /root/bin/msfvenom_creator
 
-$ msfvenom_maker
+$ msfvenom_creator
 ```
 
 ## Reference
