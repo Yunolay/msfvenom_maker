@@ -92,6 +92,12 @@ Please select a payload.
 [*] 17 : Perl Unix Reverse shell
 ```
 
+## Screenshots
+![Screenshot from 2022-05-03 13-07-25](https://user-images.githubusercontent.com/67827146/166449877-9bc42cc1-509e-49e5-b908-95cb5fb771d1.png) ![Screenshot from 2022-05-03 13-10-33](https://user-images.githubusercontent.com/67827146/166450332-3cdd9e6a-73da-410f-82e7-b72fd9569f22.png)
+
+
+
+
 ## Demo
 
 https://user-images.githubusercontent.com/67827146/166445412-9acdc858-c6a2-49a7-bc30-4837e750b352.mp4
