@@ -244,5 +244,5 @@ case $payload in
 	    ;;
 	*)
 	    exit 1
-		;;
+	    ;;
 esac
